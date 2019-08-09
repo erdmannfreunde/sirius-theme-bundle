@@ -20,6 +20,7 @@
     "erdmannfreunde/euf_nutshell": "^0.4",
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^1.0",
-    "erdmannfreunde/euf_grid": "^2.2"
+    "erdmannfreunde/euf_grid": "^2.2",
+    "erdmannfreunde/onepage-navigation": "^1.1"
   }
 }
