@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.6.1 (22.01.2020)
+- In den ZIP-Archiven der Version 1.6.0 war irrtümlicherweise der Ordner `/files/nutshell/` inkludiert. Jetzt wird der Ordner wieder ausgeschlossen, sodass dieser durch die Installation der Nutshell-Extension  als Symlink von Contao angelegt werden kann.
+
 ## 1.6.0 (23.12.2019)
 - SIRIUS verwendet nun das Hero-Element in Version 2. Dadurch lässt sich die Position des Textes innerhalb des Elements zuordnen. Außerdem ist die Überschrift nun auch wirklich als Headline ausgezeichnet (bspw. `<h1>`)
 - SIRIUS SE: Die Server Edition verfügt nun ebenfalls über ein tinyMCE-Template, das z.B. Buttons im Editor auswählbar macht und diese auch grafisch hervorhebt
