@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.7.0 (20.02.2020)
+- SIRIUS für Contao 4.9 aktualisiert
+
 ## 1.6.1 (22.01.2020)
 - In den ZIP-Archiven der Version 1.6.0 war irrtümlicherweise der Ordner `/files/nutshell/` inkludiert. Jetzt wird der Ordner wieder ausgeschlossen, sodass dieser durch die Installation der Nutshell-Extension  als Symlink von Contao angelegt werden kann.
 
