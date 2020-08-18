@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.8.0 (18.08.2020)
+- SIRIUS für Contao 4.10 aktualisiert
+
 ## 1.7.1 (20.04.2020)
 - Animierte Elemente werden nun früher eingeblendet, in `j_animate-article.html5` außerdem über die Variable `contentOffset` geändert werden
 - Auf Unterseiten wie Datenschutz und Impressum wird einheitlich die Navigation angezeigt 
