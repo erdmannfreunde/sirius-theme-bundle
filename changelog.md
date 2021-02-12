@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.8.2 (12.02.2021)
+- Kompatibilität zum Contao Manager 1.4 bzw Composer 2 wiederhergestellt
+- Contao 4.4 Support eingestellt
+
+## 1.8.1 (13.10.2020)
+- veraltete README entfernt
+
 ## 1.8.0 (18.08.2020)
 - SIRIUS für Contao 4.10 aktualisiert
 
