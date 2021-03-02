@@ -1,5 +1,10 @@
 # Changelog
 
+# 1.9.0 (02.03.2021)
+- Contao 4.10 Support eingestellt
+- SIRIUS für Contao 4.11 aktualisiert
+- SIRIUS unterstützt nun auch den TinyMCE 5 (Standard seit Contao 4.10) 
+
 ## 1.8.2 (12.02.2021)
 - Kompatibilität zum Contao Manager 1.4 bzw Composer 2 wiederhergestellt
 - Contao 4.4 Support eingestellt

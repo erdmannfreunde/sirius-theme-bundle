@@ -17,12 +17,11 @@
     ],
   "require": {
     "php": "^7.1",
-    "contao/core-bundle": "4.4.* || 4.9.* || 4.10.*",
+    "contao/core-bundle": "4.9.* || 4.11.*",
     "erdmannfreunde/euf_nutshell": "^0.4",
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^2.0",
     "erdmannfreunde/euf_grid": "^2.2",
-    "erdmannfreunde/onepage-navigation": "^1.1",
-    "contao-components/tinymce4": "^4.7"
+    "erdmannfreunde/onepage-navigation": "^1.1"
   }
 }
