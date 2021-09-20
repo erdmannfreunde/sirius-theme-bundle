@@ -1,6 +1,11 @@
 # Changelog
 
-# 1.9.0 (02.03.2021)
+## 1.10.0 (20.09.2021)
+- SIRIUS für Contao 4.12 aktualisiert
+- Contao 4.11 Support eingestellt
+- Entwickler Edition: node und gulp aktualisiert
+
+## 1.9.0 (02.03.2021)
 - Contao 4.10 Support eingestellt
 - SIRIUS für Contao 4.11 aktualisiert
 - SIRIUS unterstützt nun auch den TinyMCE 5 (Standard seit Contao 4.10) 
