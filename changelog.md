@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.11.0 (15.02.2022)
+- SIRIUS für Contao 4.13 aktualisiert
+- Contao 4.12 Support eingestellt
+- FIX: localconfig-Einstellungen lassen sich nun auch über die `config.yml` vornehmen
+
 ## 1.10.0 (20.09.2021)
 - SIRIUS für Contao 4.12 aktualisiert
 - Contao 4.11 Support eingestellt
