@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.1 (25.03.2022)
+- PHP 8 Unterstützung
+- Entwickler Edition: node und gulp aktualisiert
+
 ## 1.11.0 (15.02.2022)
 - SIRIUS für Contao 4.13 aktualisiert
 - Contao 4.12 Support eingestellt
