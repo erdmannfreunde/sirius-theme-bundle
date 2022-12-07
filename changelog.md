@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.11.2 (07.12.2022)
+- Entwickler Edition: postcss als Abhängigkeit ergänzt
+
 ## 1.11.1 (25.03.2022)
 - PHP 8 Unterstützung
 - Entwickler Edition: node und gulp aktualisiert
