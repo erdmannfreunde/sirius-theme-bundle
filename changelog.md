@@ -1,5 +1,20 @@
 # Changelog
 
+## 2.0.0 (10.03.2023)
+- Contao 5.1 Support
+
+## 1.11.2 (07.12.2022)
+- Entwickler Edition: postcss als Abhängigkeit ergänzt
+
+## 1.11.1 (25.03.2022)
+- PHP 8 Unterstützung
+- Entwickler Edition: node und gulp aktualisiert
+
+## 1.11.0 (15.02.2022)
+- SIRIUS für Contao 4.13 aktualisiert
+- Contao 4.12 Support eingestellt
+- FIX: localconfig-Einstellungen lassen sich nun auch über die `config.yml` vornehmen
+
 ## 1.10.0 (20.09.2021)
 - SIRIUS für Contao 4.12 aktualisiert
 - Contao 4.11 Support eingestellt

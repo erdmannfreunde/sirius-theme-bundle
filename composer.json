@@ -16,12 +16,17 @@
         }
     ],
   "require": {
-    "php": "^7.1",
-    "contao/core-bundle": "4.9.* || 4.12.*",
-    "erdmannfreunde/euf_nutshell": "^0.4",
-    "erdmannfreunde/euf_contact": "^1.0",
-    "erdmannfreunde/euf_hero": "^2.0",
-    "erdmannfreunde/euf_grid": "^2.2",
-    "erdmannfreunde/onepage-navigation": "^1.1"
+    "php": "^8.1",
+    "contao/core-bundle": "^5.1",
+    "nutshell-framework/nutshell": "^2.0",
+    "nutshell-framework/hero-element": "^1.2",
+    "nutshell-framework/contact-element": "^1.0",
+    "nutshell-framework/card-element": "^1.0",
+    "erdmannfreunde/onepage-navigation": "^2.1",
+    "erdmannfreunde/theme-toolbox": "^2.3",
+    "erdmannfreunde/contao-grid-bundle": "^2.0"
+  },
+  "conflict": {
+    "contao/core-bundle": "<5.0"
   }
 }
