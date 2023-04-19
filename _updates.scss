@@ -1,0 +1,24 @@
+// *
+// * Erdmann & Freunde
+// * SIRIUS Contao Theme
+// * erdmann-freunde.de/themes/sirius/
+// *
+
+//
+// UPDATES
+// --------------------------------------------------
+
+// Version 2.0.1
+.ce_contact {
+  .row & {
+    margin-bottom: 0;
+  }
+
+  .contact__details {
+    .inside {
+      div:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

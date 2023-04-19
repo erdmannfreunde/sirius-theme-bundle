@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.0.1 (18.04.2023)
+- Kleinere Anpassungen für Kontakt-Element (siehe `_updates.scss`)
+
 ## 2.0.0 (10.03.2023)
 - Contao 5.1 Support
 
