@@ -1,6 +1,13 @@
 # Changelog
 
-# 2.0.1 (18.04.2023)
+## 2.1.0 (05.05.2023)
+**NEU: Einführung des Dark Mode über Custom Properties.**
+
+In bestehenden Installationen können die Anweisungen aus der `_updates.scss` in die entsprechenden Dateien übernommen werden. Alternativ kannst du auch die komplette `_updates.scss` in dein Projekt kopieren und über die `default.scss` importieren.
+
+Wichtig: Neue Installationen mit SIRIUS 2.1.0 oder höher haben automatisch den Dark Mode aktiviert. Bitte berücksichtige deine Farbänderungen auch im dunklen Farbmodus.
+
+## 2.0.1 (18.04.2023)
 - Kleinere Anpassungen für Kontakt-Element (siehe `_updates.scss`)
 
 ## 2.0.0 (10.03.2023)

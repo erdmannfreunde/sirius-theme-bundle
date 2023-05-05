@@ -8,7 +8,8 @@
 // UPDATES
 // --------------------------------------------------
 
-// Version 2.0.1
+// VERSION 2.0.1
+// COMPONENTS/CONTACT
 .ce_contact {
   .row & {
     margin-bottom: 0;
@@ -22,3 +23,39 @@
     }
   }
 }
+// --------------------------------------------------
+
+
+// VERSION 2.1.0
+// VARIABLES
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-page-background:       #111;
+    --color-text:                  #FFF;
+    --button-color:                var(--color-text);
+    --card-color:                  var(--color-text);
+    --card-headline-color:         var(--color-text);
+    --contact-color:               var(--color-text);
+    --article-highlight-text:      var(--color-text);
+    --layout-footer-color:         var(--color-text);
+    --nav-mobile-color-background: rgba(0, 0, 0, 0.8);
+    --forms-input-background:      #FFF;
+  }
+}
+
+// COMPONENTS/CARD
+.ce_card {
+  .card__headline {
+    background: var(--card-headline-color);
+  }
+}
+
+//COMPONENTS/MEDIA
+[id='colorbox'] {
+  [id='cboxPrevious'],
+  [id='cboxNext'],
+  [id='cboxClose'] {
+    color: var(--color-text);
+  }
+}
+// --------------------------------------------------
