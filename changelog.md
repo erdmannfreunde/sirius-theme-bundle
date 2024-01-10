@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.1 (10.01.2024)
+- Fehlerhafte Darstellung der Card-Elemente im Firefox (auf kleinen Bildschirmen) behoben
+
+## 2.2.0 (07.09.2023)
+- Kompatibilität zu Contao 5.2 hergestellt
+
 ## 2.1.0 (05.05.2023)
 **NEU: Einführung des Dark Mode über Custom Properties.**
 

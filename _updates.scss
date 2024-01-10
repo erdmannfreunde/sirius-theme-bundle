@@ -59,3 +59,10 @@
   }
 }
 // --------------------------------------------------
+
+// VERSION 2.2.1
+// BASE/GRID
+.row--overflow {
+  grid-template-columns: repeat(var(--grid-columns), auto);
+}
+// --------------------------------------------------
