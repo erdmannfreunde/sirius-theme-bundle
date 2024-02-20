@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.3.0 (20.02.2024)
+**Unterstützung für Contao 5.3 LTS**
+
+SIRIUS unterstützt die neuen verschachtelten Inhaltselemente für Akkordeon und Slider. Im Artikel „Jobs“ gibt es zusätzlich eine beispielhafte Verwendung für das ebenfalls neue Element **Beschreibungsliste** (Description List).
+
+In bestehenden Installationen können die Anweisungen nach dem Update auf Contao 5.3 aus der `_updates.scss` in die entsprechenden Dateien übernommen werden. Alternativ kannst du auch die komplette `_updates.scss` in dein Projekt kopieren und über die `default.scss` importieren.
+
 ## 2.2.1 (10.01.2024)
 - Fehlerhafte Darstellung der Card-Elemente im Firefox (auf kleinen Bildschirmen) behoben
 
