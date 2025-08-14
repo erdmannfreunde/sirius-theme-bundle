@@ -10,11 +10,11 @@
   ],
   "license": "LGPL-3.0-or-later",
   "authors": [
-        {
-            "name": "Dennis Erdmann",
-            "homepage": "https://erdmann-freunde.de"
-        }
-    ],
+    {
+      "name": "Dennis Erdmann",
+      "homepage": "https://erdmann-freunde.de"
+    }
+  ],
   "require": {
     "php": "^8.1",
     "contao/core-bundle": "5.3.*",
@@ -24,7 +24,8 @@
     "nutshell-framework/card-element": "^1.0",
     "erdmannfreunde/onepage-navigation": "^2.1",
     "erdmannfreunde/theme-toolbox": "^3.0",
-    "erdmannfreunde/contao-grid-bundle": "^2.0"
+    "erdmannfreunde/contao-grid-bundle": "^2.0",
+    "erdmannfreunde/contao-ping-bundle": "^1.0"
   },
   "conflict": {
     "contao/core-bundle": "<5.0"
