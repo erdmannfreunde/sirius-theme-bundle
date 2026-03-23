@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.0 (23.03.2026)
+
+Unterstützung für Contao 5.7 LTS. Standardmäßig wird nun Contao 5.7 bei Neuinstallationen als Basis verwendet. Bestehende Contao 5.3 Installationen können direkt über den Manager auf Contao 5.7 aktualisiert werden.
+
 ## 2.3.1 (16.08.2024)
 
 - Theme auf Contao 5.3 LTS fixiert
