@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.0.0-RC1 (24.08.2026)
+
+**SIRIUS 3 – Vorabversion. Änderungen bis zur 3.0.0 sind möglich.**
+
+Das Bundle ist vom Metapaket zu einem vollwertigen Contao-Bundle geworden und liefert die Theme-Templates jetzt selbst aus – als Twig unter `contao/templates` statt als `.html5` im Projekt:
+
+- `mod_article` und `be_tinyMCE` erben über `{% extends "@Contao/…" %}` von den Core-Templates und überschreiben nur noch, was SIRIUS wirklich ändert
+- `j_colorbox`, `js_nav--mobile` und `js_animate-article` sind ebenfalls Twig; das vormals inline eingebettete JavaScript liegt jetzt als Datei im Theme
+- `ce_sliderStop` entfällt – dafür gibt es seit Contao 5.3 die verschachtelten Inhaltselemente
+
+Basis ist Contao 5.7. Die Theme Toolbox wird ab `^4.2` vorausgesetzt: Sie bringt den Live-Editor mit und erwartet die Theme-Struktur unter `layout/` statt unter `files/`.
+
 ## 2.4.1 (18.08.2026)
 
 Behebt einen in 2.4.0 eingeführten Fehler, bei dem Links in Card-Elemente nicht klickbar waren.

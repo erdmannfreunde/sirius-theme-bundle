@@ -1,0 +1,17 @@
+{% extends '@Contao/be_tinyMCE.html.twig' %}
+
+  {% block content_css %}
+    content_css: '/assets/sirius-theme/css/tinymce.css',
+    style_formats_merge: true,
+    style_formats: [
+      {title: 'Theme Styles', items: [
+        { title: 'Button Primary', block: 'div', classes: 'btn btn--primary', exact: true },
+        { title: 'Button Secondary', block: 'div', classes: 'btn btn--secondary',  exact: true },
+        { title: 'Text Attention', block: 'p', classes: 'text--attention',  exact: true }
+      ]}
+    ],
+  {% endblock %}
+
+  {% block toolbar %}
+    toolbar: 'link unlink | image | bold italic | styles | bullist numlist outdent indent | undo redo | code',
+  {% endblock %}
