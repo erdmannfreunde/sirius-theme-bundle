@@ -1,5 +1,28 @@
 # Changelog
 
+## 3.0.0 (28.08.2026)
+
+**SIRIUS 3 – für Contao 5.7 LTS.**
+
+Das Bundle ist vom Metapaket zu einem vollwertigen Contao-Bundle geworden und
+liefert die Theme-Templates jetzt selbst aus – als Twig unter `contao/templates`
+statt als `.html5` im Projekt:
+
+- `mod_article` und `be_tinyMCE` erben über `{% extends "@Contao/…" %}` von den
+  Core-Templates und überschreiben nur noch, was SIRIUS wirklich ändert
+- `j_colorbox`, `js_nav--mobile` und `js_animate-article` sind ebenfalls Twig;
+  das vormals inline eingebettete JavaScript liegt als Datei im Theme und wird
+  über `theme_js()` eingebunden
+- `ce_sliderStop` entfällt – dafür gibt es seit Contao 5.3 die verschachtelten
+  Inhaltselemente
+
+Die Theme-Struktur liegt nicht mehr unter `files/`, sondern unter `layout/`.
+Farben, Schriften, Abstände und Eckenradien lassen sich damit über den Theme
+Editor der Theme Toolbox (ab `^4.2`) anpassen; drei Farbwelten sind als Presets
+enthalten: Waldgrün, Terrakotta und Schiefer.
+
+Die nicht mehr benötigte `_updates.scss` wurde entfernt.
+
 ## 3.0.0-RC2 (28.08.2026)
 
 Die JavaScript-Templates binden ihre Dateien jetzt über `theme_js()` der Theme
