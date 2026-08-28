@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.0-RC2 (28.08.2026)
+
+Die JavaScript-Templates binden ihre Dateien jetzt über `theme_js()` der Theme
+Toolbox ein statt über einen festen Pfad. Damit wird der Theme-Name zur Laufzeit
+aufgelöst, die Assets werden vor der Ausgabe nach `assets/` gespiegelt, und eine
+fehlende Datei ergibt keinen toten Verweis mehr.
+
 ## 3.0.0-RC1 (24.08.2026)
 
 **SIRIUS 3 – Vorabversion. Änderungen bis zur 3.0.0 sind möglich.**
