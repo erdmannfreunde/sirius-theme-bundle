@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.1 (23.09.2026)
+
+- Colorbox: Der Titel bekommt wieder die Sekundärfarbe. Das `!important` stand innerhalb von `var()` und machte die Anweisung ungültig.
+- Demo-Inhalte aktualisiert: Impressum und Datenschutzerklärung nennen die Erdmann Digital GmbH und verweisen auf flow-contao-themes.de, der Copyright-Hinweis im Footer verlinkt dorthin.
+- Das Logo der Demo kommt jetzt aus dem Theme (`assets/sirius-theme/img/logo.svg`) statt aus `files/demo`. Damit lässt es sich über den Theme Editor ersetzen.
+
 ## 3.0.0 (28.08.2026)
 
 **SIRIUS 3 – für Contao 5.7 LTS.**
