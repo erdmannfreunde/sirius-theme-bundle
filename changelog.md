@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.2 (29.09.2026)
+
+- Lizenzbedingungen liegen dem Paket jetzt bei: `LIZENZ-de.txt` als maßgebliche Fassung und `LICENSE-en.txt` als englische Übersetzung. Bisher enthielt das Paket keinerlei Lizenztext.
+- Neue `CREDITS.txt` weist alle Bestandteile Dritter nach – Schriften, Icons und Demo-Bilder. Der vollständige Lizenztext liegt im Ordner `licenses/`, weil die Apache License 2.0 die Mitlieferung verlangt.
+- Lizenzangabe in der `composer.json` von `LGPL-3.0-or-later` auf `proprietary` geändert. Die bisherige Angabe widersprach den Lizenzbedingungen. Das Theme-Bundle `erdmannfreunde/sirius-theme-bundle` bleibt davon unberührt und weiterhin LGPL.
+- Social-Icons der Demo ausgetauscht. Die bisherigen Icons stammten von iconmonstr, dessen Lizenz ein nicht übertragbarer Einzelnutzer-Vertrag ist und die Weitergabe in einem verkauften Paket nicht deckt. Ersatz sind `brand-instagram` und `brand-linkedin` aus den Tabler Icons (MIT); das Facebook-Icon ist daraus zusammengesetzt, weil Tabler kein Icon im Kasten anbietet.
+- Falsche Lizenzangabe im Kopf der `navigation.js` korrigiert: Dort stand „Lizenziert unter MIT OPEN SOURCE“ mit Verweis auf das Nutshell Framework, das unter LGPL-3.0-or-later steht.
+
 ## 3.0.1 (23.09.2026)
 
 - Colorbox: Der Titel bekommt wieder die Sekundärfarbe. Das `!important` stand innerhalb von `var()` und machte die Anweisung ungültig.
