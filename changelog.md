@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.0.3 (01.10.2026)
+
+- `theme.xml` aktualisiert. Wer das Theme ohne Demo importierte, bekam noch das Logo aus `files/demo`, den Footer-Link auf erdmann-freunde.de und den iconmonstr-Hinweis im Social-Media-Modul – in 3.0.1 und 3.0.2 waren diese Stände nur in den Demo-Daten korrigiert.
+- Scroll-Animationen: Ist die Seite in einem Cross-Origin-iframe eingebettet, ist `rootBounds` `null` und das Script brach mit einem Fehler ab. Jetzt dient die Breite des Viewports als Rückfall.
+- Lightbox: Der unsichtbare Text des Weiter-Buttons lautet jetzt „Nächstes“ statt „Nächtes“.
+- PHP-Anforderung in der `composer.json` von Paket und Bundle von `^8.1` auf `^8.3` angehoben. Contao 5.7 setzt PHP 8.3 voraus, die bisherige Angabe war zu niedrig.
+- Lizenzbedingungen § 6 Abs. 1 präzisiert: Kostenlos sind Updates für die Contao-Hauptversion, für die das Theme erworben wurde – alle LTS-Versionen dieser Hauptversion, bei Contao 5 also 5.3 LTS und 5.7 LTS, nicht aber spätere Contao-Hauptversionen. Das bisherige Beispiel „5.x“ ließ offen, ob die Theme- oder die Contao-Version gemeint ist.
+- Lizenzbedingungen § 2 Abs. 4 und `CREDITS.txt`: Nicht alle Erweiterungen, die Composer nachlädt, stehen unter der LGPL. Hero-, Card- und Kontakt-Element stehen unter GPL-3.0-or-later, das Grid-Bundle unter MIT. `CREDITS.txt` führt jetzt alle Erweiterungen mit ihrer Lizenz auf.
+- Falsche Lizenzangabe im Kopf von `js_nav--mobile.html.twig` korrigiert: Dort stand wie zuvor in der `navigation.js` „Lizenziert unter MIT OPEN SOURCE“.
+- Verweise auf die alte Produktseite bei erdmann-freunde.de in der `composer.json` des Pakets und in den Kopfzeilen der SCSS-Dateien auf flow-contao-themes.de umgestellt.
+- Demo-Inhalte: Auf der Seite „Elemente im Überblick“ stand bei Akkordeon und Slider noch „SIRIUS 2“.
+
 ## 3.0.2 (29.09.2026)
 
 - Lizenzbedingungen liegen dem Paket jetzt bei: `LIZENZ-de.txt` als maßgebliche Fassung und `LICENSE-en.txt` als englische Übersetzung. Bisher enthielt das Paket keinerlei Lizenztext.
